@@ -1,0 +1,218 @@
+body{
+				width:1000px;
+				height:600px;
+				position: relative;
+				background-color: #1F1F1C;
+			}
+			.chai1, .chai2{
+				width: 400px;
+				height: 50px;
+				background-color: #B14C0C;
+				border-radius: 15px;
+				position: absolute;
+				left: 300px;
+				bottom: 50px;
+				transform: rotate(15deg);
+				box-shadow: 2px 2px 2px 2px #212121;
+			}
+			.chai2{
+				transform: rotate(-15deg);
+			}
+			.kuai1, .kuai2, .kuai3, .kuai4{
+				width: 40px;
+				height:40px;
+				background-color: #B92672;
+				transform: rotate(45deg);
+				position: absolute;
+				left: 460px;
+				bottom: 130px;
+				animation:aaa 1.1s infinite linear;
+				border-radius: 10px;
+			}
+			.kuai2{
+				left: 530px;
+				bottom: 110px;
+				animation: bbb 1.5s infinite linear;
+			}
+			.kuai3{
+				left: 600px;
+				bottom: 130px;
+				animation: ccc 1.7s infinite linear;
+			}
+			.kuai4{
+				left: 670px;
+				bottom: 130px;
+				animation: ddd 2s infinite linear;
+			}
+			@keyframes aaa{
+				0% {
+					width: 40px;
+					height:40px;
+					background-color: #DE0F12;
+					box-shadow: 5px 5px 10px yellow;
+					}
+				25% {
+					width: 80px;
+					height:80px;
+					background-color: #DE0F12;
+					left: 460px;
+					bottom:290px;
+					box-shadow: 5px 5px 10px yellow;
+					
+				}
+				50% {
+					width: 100px;
+					height:100px;
+					background-color: gold;
+					box-shadow: 5px 5px 10px gold;
+					left: 460px;
+					bottom:370px
+				}
+				75% {
+					width: 120px;
+					height:120px;
+					background-color: orangere;
+					box-shadow: 1px 1px 10px orangere;
+					left: 480px;
+					bottom:480px;
+					opacity: 0.5;
+				}
+				100% {
+					width: 140px;
+					height:140px;
+					background-color: firebrick;
+					box-shadow: 5px 5px 10px firebrick;
+					left: 420px;
+					bottom:520px;
+					opacity: 0.5;
+				}
+			}
+				@keyframes bbb{
+					0% {
+						width: 40px;
+						height:40px;
+						background-color: #DE0F12;
+						box-shadow: 5px 5px 10px yellow;
+						}
+					25% {
+						width: 80px;
+						height:80px;
+						background-color: #DE0F12;
+						left: 460px;
+						bottom:270px;
+						box-shadow: 5px 5px 10px yellow;
+						
+					}
+					50% {
+						width: 100px;
+						height:100px;
+						background-color: gold;
+						box-shadow: 5px 5px 10px gold;
+						left: 490px;
+						bottom:380px;
+					}
+					75% {
+						width: 120px;
+						height:120px;
+						background-color: orangere;
+						box-shadow: 1px 1px 10px orangere;
+						left: 460px;
+						bottom:480px;
+						opacity: 0.5;
+					}
+					100% {
+						width: 140px;
+						height:140px;
+						background-color: firebrick;
+						box-shadow: 5px 5px 10px firebrick;
+						left: 420px;
+						bottom:520px;
+						opacity: 0.5;
+					}	
+				}
+				@keyframes ccc{
+					0% {
+						width: 40px;
+						height:40px;
+						background-color: #DE0F12;
+						box-shadow: 5px 5px 10px yellow;
+						}
+					25% {
+						width: 80px;
+						height:80px;
+						background-color: #DE0F12;
+						left: 290px;
+						bottom:275px;
+						box-shadow: 5px 5px 10px yellow;
+						
+					}
+					50% {
+						width: 100px;
+						height:100px;
+						background-color: gold;
+						box-shadow: 5px 5px 10px gold;
+						left: 390px;
+						bottom:400px;
+					}
+					75% {
+						width: 120px;
+						height:120px;
+						background-color: orangere;
+						box-shadow: 1px 1px 10px orangere;
+						left: 440px;
+						bottom:480px;
+						opacity: 0.5;
+					}
+					100% {
+						width: 140px;
+						height:140px;
+						background-color: firebrick;
+						box-shadow: 5px 5px 10px firebrick;
+						left: 420px;
+						bottom:520px;
+						opacity: 0.5;
+					}	
+				}	
+				@keyframes ddd{
+					0% {
+						width: 40px;
+						height:40px;
+						background-color: #DE0F12;
+						box-shadow: 5px 5px 10px yellow;
+						}
+					25% {
+						width: 80px;
+						height:80px;
+						background-color: #DE0F12;
+						left: 300px;
+						bottom:500px;
+						box-shadow: 5px 5px 10px yellow;
+						
+					}
+					50% {
+						width: 100px;
+						height:100px;
+						background-color: gold;
+						box-shadow: 5px 5px 10px gold;
+						left: 390px;
+						bottom:440px;
+					}
+					75% {
+						width: 120px;
+						height:120px;
+						background-color: orangere;
+						box-shadow: 1px 1px 10px orangere;
+						left: 420px;
+						bottom:460px;
+						opacity: 0.5;
+					}
+					100% {
+						width: 140px;
+						height:140px;
+						background-color: firebrick;
+						box-shadow: 5px 5px 10px firebrick;
+						left: 420px;
+						bottom:480px;
+						opacity: 0.5;
+					}	
+				}			

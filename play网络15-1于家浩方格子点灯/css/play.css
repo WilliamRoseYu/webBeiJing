@@ -1,0 +1,81 @@
+	.box_1{
+				width: 260px;
+				height: 260px;
+				border: 1px solid black;
+				position: relative;
+				overflow: hidden; /*超出部分隐藏*/
+				margin: 0 auto; /*元素居中*/
+			}
+			.box{
+				width: 364px;
+				height: 364px;
+				border: 1px solid red;
+				position: absolute;
+				left: -53px;
+				top: -53px;
+			}
+			.box div{
+				width: 50px;
+				height: 50px;
+				background-image: url(../img/dcardbackground.jpeg);
+				background-size:50px 50px ;
+				float: left; 
+				border: 1px solid green;
+				/*浮动*/
+			}
+			.div3{
+				width: 391px;
+				height: 576px;
+				background-image: url(../img/playbackground.gif);
+				background-size: cover;	
+				float: left; 
+			}
+			.div4{
+				width: 391px;
+				height: 576px;
+				background-image: url(../img/playbackground.gif);	
+				float: right; 
+			}
+
+
+
+			
+			.div2{	
+				transition: all 1s;
+			}
+			
+			.guize{
+				width: 391px;
+				height: 576px;
+				z-index: 2;
+				float: left; 
+				font-size:x-large ;
+			}
+
+
+
+			.div10{
+				width: 300px;
+				height: 200px;
+				background-image: url(../img/ziti.png);
+				background-size: 100% 100%;
+				position: absolute;
+				transform-style: preserve-3d;
+				transform: rotateX(45deg);
+				animation: xuanzhaun 15s infinite linear;
+				left: 50%;
+				margin-left: -150px;
+				top: 400px;
+				}
+			@keyframes xuanzhaun{
+				from{
+					transform: rotateY(0deg) rotateX(0deg);
+				}
+				to{
+					transform: rotateY(-360deg) rotateX(-360deg);
+				}
+			}
+			
+			
+			
+			
